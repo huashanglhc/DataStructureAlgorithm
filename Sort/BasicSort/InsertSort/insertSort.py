@@ -15,9 +15,6 @@ def insert_sort(lst: list) -> list:
     :param lst: 待排序列表
     :return: 排序后列表
     """
-    if len(lst) <= 1:
-        return lst
-
     # 无序区循环次数
     for i in range(1, len(lst)):
         # 摸到的牌

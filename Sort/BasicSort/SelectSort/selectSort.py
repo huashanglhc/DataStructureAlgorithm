@@ -15,9 +15,6 @@ def select_sort(lst: list) -> list:
     :param lst: 待排序列表
     :return: 排序后列表
     """
-    if len(lst) <= 1:
-        return lst
-
     for i in range(len(lst) - 1):
         min_loc = i
         for j in range(i + 1, len(lst)):

@@ -15,9 +15,6 @@ def bulle_sort(lst: list) -> list:
     :param lst: 待排序列表
     :return: 排序后的列表
     """
-    if len(lst) <= 1:
-        return lst
-
     # 循环多少轮
     for i in range(len(lst) - 1):
         # 每轮无序区元素长度再减少
