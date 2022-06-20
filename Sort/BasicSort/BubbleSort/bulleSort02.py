@@ -15,7 +15,7 @@ def bulle_sort(lst: list) -> list:
     :param lst: 待排序列表
     :return: 排序后的列表
     """
-    if len(lst) == 0:
+    if len(lst) <= 0:
         return lst
 
     count = 0
