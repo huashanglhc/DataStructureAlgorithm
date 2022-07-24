@@ -20,7 +20,7 @@ def bulle_sort(lst: list) -> list:
         # 每轮无序区元素长度再减少
         for j in range(0, len(lst) - i - 1):
             if lst[j] > lst[j + 1]:
-                lst[j + 1], lst[j] = lst[j], lst[j + 1]
+                lst[j], lst[j + 1] = lst[j + 1], lst[j]
 
     return lst
 
