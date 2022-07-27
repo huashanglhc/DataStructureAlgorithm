@@ -6,6 +6,10 @@
 @Author  ：WL
 @Date    ：2022/7/27 21:19 
 @Describe: 二叉树遍历
+前序遍历：根-左-右
+中序遍历：左-根-右
+后序遍历：左-右-根
+
 """
 from collections import deque
 
